@@ -1,0 +1,11 @@
+# Requirements for reverser diagnostics project
+# Note: PCANBasic requires the PCAN-Basic DLL/library to be installed separately
+# Download from: https://www.peak-system.com/PCAN-Basic.239.0.html
+
+# Python standard library only - no external packages required
+# The project uses:
+# - ctypes (for PCAN DLL interface)
+# - logging (for diagnostics output)
+# - time (for timing operations)
+# - typing (for type hints)
+
